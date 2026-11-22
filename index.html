@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GILT — The Meridian Job</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #05060e; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  canvas {
+    width: min(98vw, 1152px);
+    height: auto;
+    aspect-ratio: 1152 / 648;
+    box-shadow: 0 0 60px rgba(201, 162, 39, 0.25);
+    border: 1px solid #333c5c;
+    background: #0b0e1a;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1152" height="648"></canvas>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
